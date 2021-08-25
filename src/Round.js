@@ -4,27 +4,31 @@ class Round {
   constructor(deck) {
     this.deck = deck.deck;
     this.turns = 0;
-    this.currentCard = this.deck[this.turns];
+    // this.currentCard = this.deck[this.turns];
     this.incorrectGuesses = [];
   }
 
   returnCurrentCard() {
-    return this.currentCard;
+    return this.deck[0];
   };
 
   takeTurn(guess) {
-    const turn = new Turn(guess, this.currentCard);
+    let currentCard = this.returnCurrentCard();
+    let turn = new Turn(guess, currentCard);
+
+    this.deck.shift();
     this.turns ++;
-    if(!turn.evaluateGuess() && this.turns < this.deck.length) {
-      this.incorrectGuesses.push(this.currentCard.id);
-    }else if(!turn.evaluateGuess() && this.turns === this.deck.length) {
-      this.incorrectGuesses.push(this.currentCard.id);
-      this.endRound();
-    } else if(turn.evaluateGuess() && this.turns === this.deck.length) {
+    if(!turn.evaluateGuess() && currentCard) {
+      this.incorrectGuesses.push(currentCard.id);
+      console.log(this.deck.length)
+      return turn.returnFeedback();
+    }else if(turn.evaluateGuess() && currentCard) {
+      console.log(this.deck.length)
+      return turn.returnFeedback();
+    } else {
+      console.log(this.deck.length)
       this.endRound();
     }
-    this.currentCard = this.deck[this.turns];
-    return turn.returnFeedback();
   };
 
   calculatePercentCorrect() {
