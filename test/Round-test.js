@@ -83,7 +83,6 @@ describe('Round', function() {
     const round = new Round(deck);
     round.takeTurn('sea otter');
     round.takeTurn('gallbladder');
-    // round.takeTurn('playing with bubble wrap');
 
     expect(round.turns).to.equal(2);
   });
