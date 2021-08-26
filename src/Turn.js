@@ -6,15 +6,15 @@ class Turn {
 
   returnGuess() {
     return this.guess;
-  };
+  }
 
   returnCard() {
     return this.card;
-  };
+  }
 
   evaluateGuess() {
     return this.guess === this.card.correctAnswer;
-  };
+  }
 
   returnFeedback(){
     if(this.evaluateGuess()) {
@@ -22,8 +22,8 @@ class Turn {
     } else {
       return 'incorrect!'
     }
-  };
-};
+  }
+}
 
 
 module.exports = Turn;
