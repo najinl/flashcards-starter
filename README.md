@@ -4,6 +4,7 @@ This application is a flashcard game that can be played within a users terminal.
 
 ## Demo
 
+![recording](https://user-images.githubusercontent.com/68795578/131052933-3961e31a-0d7b-4005-8d84-54162708653b.gif)
 
 
 ## Setup
