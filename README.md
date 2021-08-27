@@ -1,6 +1,6 @@
 # Mod-2 FlashCards Starter Kit
 
-This application is a flashcard game that can be played within a users terminal. Either arrow keys or number keys can be utilized in conjunction with the enter key to choose an answer from a multiple choice list. At the end of the game, a summary of what percentage of questions were answered correctly and the time to finish the flashcard deck is dislayed to the player. The application utilizes multiple classes and accompanying test files to display the benefits of test-driven development (TDD).
+This object-oriented application is a flashcard game that can be played within a user's terminal. Either arrow keys or number keys can be utilized in conjunction with the enter key to choose an answer from a multiple choice list. At the end of the game, a summary of what percentage of questions were answered correctly and the time to finish the flashcard deck is dislayed to the player. The application utilizes multiple classes and accompanying test files to display the benefits of test-driven development (TDD).
 
 ## Demo
 
