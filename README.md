@@ -17,7 +17,7 @@ This application is a flashcard game that can be played within a users terminal.
 
 ## Install/Setup
 
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
+1) Open your terminal and run the command: `git clone https://github.com/najinl/flashcards-starter.git` (you replace the `[...]` with the terminal command arguments):
 
 ```bash
 git clone [remote-address] [what you want to name the repo]
