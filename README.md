@@ -21,10 +21,11 @@ This object-oriented application is a flashcard game that can be played within a
 **To Play**
 1) Open your terminal and run the command: `git clone git@github.com:najinl/flashcards-starter.git`
 2) `cd` into the repository
-3) Run the command `node index.js` to start the game
-4) To exit the game(server) hit **Control+C** on your keyboard
+3) Run the command `npm install`
+4) Run the command `node index.js` to start the game
+5) To exit the game(server) hit **Control+C** on your keyboard
 
 **To Run the Test Suite**
-1) Run command `npm install`
-2) Run command `npm test`
+1) Run the command `npm install`
+2) Run the command `npm test`
 
