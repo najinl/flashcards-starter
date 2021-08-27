@@ -17,24 +17,14 @@ This application is a flashcard game that can be played within a users terminal.
 
 ## Install/Setup
 
-1) Open your terminal and run the command: `git clone https://github.com/najinl/flashcards-starter.git` (you replace the `[...]` with the terminal command arguments):
 
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
+**To Play**
+1) Open your terminal and run the command: `git clone git@github.com:najinl/flashcards-starter.git`
+2) `cd` into the repository
+3) Run the command `node index.js` to start the game
+4) To exit the game(server) hit **Control+C** on your keyboard
 
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Node server running on port 3000
-```
-
+**To Run the Test Suite**
+1) Run command `npm install`
+2) Run command `npm test`
 
